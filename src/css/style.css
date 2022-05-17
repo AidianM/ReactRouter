@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=UnifrakturMaguntia&display=swap');
+/*Raleway, Averia Serif Libre, UnifrakturMaguntia*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+    background-image: "url('./Header.png')";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+/*body *{
+    border: 1px solid red;
+}*/
+.icons{
+    filter: invert();
+    box-sizing: content-box;
+    height: .8em;
+    padding-top: 5px;
+    /*object-fit: contain;*/
+    
+}
+
+.icon-container{
+    padding: 0 5px 0 5px;
+    background-color: red;
+}
+
+.icon-cart{
+    filter: invert();
+    box-sizing: content-box;
+    height: 1.2em;
+    padding-top: 5px;
+    /*object-fit: contain;*/
+    
+}
+
+.cart-container{
+    padding: 0 5px 0 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav_links{
+
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.user-info li{
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.user-info li a:hover{
+    color: red;
+}
+
+.nav_links li a{
+    color: white;
+}
+
+.nav_links li a:hover{
+    color: red;
+}
+
+.foot_links li a:hover{
+    color: #333;
+}
+
+.logo{
+    box-sizing: content-box;
+    padding: 25px 15px 35px 15px;
+    flex: 0;
+    margin-left: 0;
+    color: white;
+    background-color: red;
+    font-size: 3em;
+    font-family: "UnifrakturMaguntia", Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    box-shadow: 0 0 0 0 red;
+    transition: box-shadow .5s ease-in-out;
+    cursor: default;
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 20px 15px red;
+}
+
+.user-info{
+    color: white;
+}
+
+.user-info li a{
+    color: white;
+}
+
+
+
+.search{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    
+}
+
+#cart{
+    display: flex;
+    float: right;
+    align-items: center;
+    
+}
+
+.footer{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 1z5em;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer p{
+    margin-left: 10px;
+    font-family: "UnifrakturMaguntia";
+    font-size: 2em;
+    text-shadow: 2px 2px 8px black;
+    cursor: default;
+}
+
+content{
+    padding: 50px 5px 5px 5px;
+    font-family: "Averia Serif Libre", "Arial";
+}
+
+.mission{
+    color: white;
+    text-align: center;
+    margin: 50px 30% 0 30%;
+    border-bottom: 2px solid #a32219;
+    font-family: "UnifrakturMaguntia";
+    font-size: 2em;
+    text-shadow: 5px 5px 10px #a32219;
+
+}
+
+.text-body{
+    color: white;
+    font-family: "Raleway", Courier, monospace;
+    margin: 25px 50px;
+    font-size: 2em;
+}
+
+.text-body a:visited{
+    color: white;
+}
+
+.exempli{
+    border: 1px solid red;
+
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px 40%;
+}
+
+.text-body ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-body ol li{
+    list-style-type: decimal;
+}
+
+
+.quote{
+    margin: 0px 25% 10px 25%;
+    height: 200px;
+    display: flex;
+}
+
+.quote-text{
+    overflow: auto;
+    background-color: #333;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quotehead{
+    margin: 0 25%;
+    text-align: center;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.current{
+    border-bottom: 3px solid #a32219;
+}
+
+.current .foot_links{
+    border-bottom: 2px solid #333;
+}
+
+.show-off{
+    box-shadow: 0 0 10px 5px #a32219;
+    border-radius: 8px;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.show-off:hover{
+    box-shadow: 0 0 20px 10px #a32219;
+}
+
+.blast{
+    text-align: center;
+}
+
+.mail-demon {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #a32219;
+}
